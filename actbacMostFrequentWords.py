@@ -14,7 +14,7 @@ fname = 'actbacFB.txt'
 frequency = 50
 
 with open(fname, 'r', encoding="utf-8") as f:
-    data=f.read().replace('\n', '')
+    data = f.read().replace('\n', '')
 
 # get list of most frequent words
 words = word_tokenize(data)
