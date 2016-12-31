@@ -12,7 +12,6 @@ from nltk.corpus import stopwords
 
 fname = 'actbacFB.txt'
 frequency = 50
-text = ''
 
 with open(fname, 'r', encoding="utf-8") as f:
     data=f.read().replace('\n', '')
